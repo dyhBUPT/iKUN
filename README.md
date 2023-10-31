@@ -72,7 +72,6 @@ pip install ftfy regex tqdm
 pip install git+https://github.com/openai/CLIP.git # or setup from your local CLIP with `python setup.py develop`
 ```
 
-
 ## Test
 For direct testing, you can run the following command to generate the results of the baseline model:
 ```
