@@ -49,13 +49,29 @@ Then set the default values of `--save_root` in `opts.py` to your `path_to_data_
 You can download our constructed Refer-Dance dataset from [baidu disk](https://pan.baidu.com/s/1GxjHPt-hElb8v_c7EA1wLA?pwd=bupt).
 
 ## Requirements
-
+- python==3.8
 - torch==2.0.1
 - torchvision==0.15.2
 - tensorboard==2.13.0
 - numpy==1.21.0
-- transformers==4.29.1
+- einops==0.6.1
+- ftfy==6.1.1
+- regex==2023.5.5
+- tqdm==4.65.0
 - [clip==1.0](https://github.com/openai/CLIP)
+
+Here is a from-scratch script:
+```
+conda create python=3.8.16 -n iKUN_Git --y
+conda activate iKUN_Git
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia --y
+pip install six==1.16.0
+pip install tensorboard==2.13.0
+pip install einops==0.6.1
+pip install ftfy regex tqdm
+pip install git+https://github.com/openai/CLIP.git # or setup from your local CLIP with `python setup.py develop`
+```
+
 
 ## Test
 For direct testing, you can run the following command to generate the results of the baseline model:
