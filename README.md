@@ -20,7 +20,7 @@ Finally, to speed up the development of RMOT, we also contribute a more challeng
 
 ## Data Preparation
 
-Download [Refer-KITTI](https://github.com/wudongming97/RMOT) and our prepared files (TBD).
+Download [Refer-KITTI](https://github.com/wudongming97/RMOT) and our prepared [files](https://pan.baidu.com/s/1wLP6dHg0pyrvRLpYQ1LTTw?pwd=bupt).
 Please organize them as follows:
 ```
 path_to_data_and_files
