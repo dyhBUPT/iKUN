@@ -72,6 +72,8 @@ pip install ftfy regex tqdm
 pip install git+https://github.com/openai/CLIP.git # or setup from your local CLIP with `python setup.py develop`
 ```
 
+Note: you need to slightly modify the source code of CLIP following issue https://github.com/dyhBUPT/iKUN/issues/12.
+
 ## Test
 For direct testing, you can run the following command to generate the results of the baseline model:
 ```
