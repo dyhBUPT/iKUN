@@ -1,5 +1,7 @@
 # iKUN: Speak to Trackers without Retraining
 
+[![arXiv](https://img.shields.io/badge/arXiv-2312.16245-<COLOR>.svg)](https://arxiv.org/abs/2312.16245)
+
 ![framework](assets/framework.png)
 
 ## Abstract
@@ -111,5 +113,13 @@ python train.py --exp_name my_exp --kum_mode 'text-first modulation'
 ```
 
 ## Citation
-
-TBD
+```
+@InProceedings{Du_2024_CVPR,
+    author    = {Du, Yunhao and Lei, Cheng and Zhao, Zhicheng and Su, Fei},
+    title     = {iKUN: Speak to Trackers without Retraining},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {19135-19144}
+}
+```
